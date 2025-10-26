@@ -1,13 +1,13 @@
-# LawVriksh - Final Deployable Version
+# LawVriksh - Absolute Path Fixed for Vercel
 
-This is the final version that fixes Rollup/Vite unresolved import issues on Vercel.
+This version fixes all Rollup unresolved import errors for Vercel deployment.
 
 ## Local setup
 1. npm install
 2. npm run dev
 3. npm run build
 
-## Deploy settings for Vercel
+## Vercel settings
 - Build command: npm run build
 - Output directory: dist
 - Root: project root

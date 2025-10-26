@@ -4,12 +4,13 @@ import { resolve } from 'path'
 
 export default defineConfig({
   plugins: [react()],
+  base: './',  // relative paths for Vercel
+  build: {
+    outDir: 'dist'
+  },
   resolve: {
     alias: {
       '@': resolve(__dirname, 'src')
     }
-  },
-  build: {
-    outDir: 'dist'
   }
 })
