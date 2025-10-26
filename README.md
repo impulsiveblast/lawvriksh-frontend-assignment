@@ -1,26 +1,13 @@
-# LawVriksh - Deployable version
+# LawVriksh - Fixed Deployable Version
 
-This is a minimal Vite + React + Tailwind project prepared to be a drop-in replacement if your original repo had build errors.
-It uses `index.html` with a relative import (`./src/main.jsx`) to avoid the Rollup unresolved import issue on Vercel.
+This version fixes the Rollup import issue by adding `base: './'` in vite.config.js.
+Tested and verified to build correctly on Vercel.
 
-## To use locally
-1. Install dependencies:
-   ```
-   npm install
-   ```
-2. Run dev:
-   ```
-   npm run dev
-   ```
-3. Build:
-   ```
-   npm run build
-   ```
+## Run locally
+npm install
+npm run build
+npm run preview
 
-## Deploying to Vercel
-- In Vercel set the Root to the project root (default).
-- Build Command: `npm run build` (or `vite build`)
-- Output Directory: `dist`
-
-Replace files in your repository with these files (or merge) and push to GitHub, then redeploy on Vercel.
-
+## Deploy settings
+- Build command: npm run build
+- Output directory: dist

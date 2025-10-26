@@ -1,8 +1,7 @@
 {
-  "name": "lawvriksh-deployable",
+  "name": "lawvriksh-deployable-fixed",
   "version": "1.0.0",
   "private": true,
-  "description": "Deployable Vite + React + Tailwind starter (made to replace the original repo for Vercel).",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
