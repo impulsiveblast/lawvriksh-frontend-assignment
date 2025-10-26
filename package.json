@@ -1,8 +1,8 @@
 {
-  "name": "responsive-dashboard-final",
+  "name": "lawvriksh-deployable",
   "version": "1.0.0",
   "private": true,
-  "type": "module",
+  "description": "Deployable Vite + React + Tailwind starter (made to replace the original repo for Vercel).",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -14,9 +14,9 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.0",
-    "autoprefixer": "^10.4.14",
-    "postcss": "^8.4.24",
-    "tailwindcss": "^3.4.7",
-    "vite": "^5.0.9"
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^3.4.0",
+    "vite": "^5.0.0"
   }
 }

@@ -1,16 +1,11 @@
-export default {
-  content: ["./index.html", "./src/**/*.{js,jsx}"],
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    './index.html',
+    './src/**/*.{js,jsx,ts,tsx}',
+  ],
   theme: {
-    extend: {
-      colors: {
-        softbeige: '#efe3db',
-        card: '#f3e8e3',
-        sidebar: '#0b0b0b'
-      },
-      fontFamily: {
-        inter: ['Inter', 'sans-serif']
-      }
-    },
+    extend: {},
   },
   plugins: [],
 }
