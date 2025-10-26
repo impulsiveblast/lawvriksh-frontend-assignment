@@ -71,11 +71,3 @@ Yes, you can!
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
-
-
----
-**Vercel / Build hints added by assistant**
-
-- Ensure you run `npm install` (or `npm ci`) locally.
-- Build command: `npm run build` (produces `dist/`).
-- If using Vercel, set Output Directory to `dist` or use the included `vercel.json`.

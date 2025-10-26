@@ -8,8 +8,7 @@
     "build": "vite build",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "start": "vite preview"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
@@ -79,14 +78,10 @@
     "tailwindcss": "^3.4.17",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.38.0",
-    "vite": "^5.4.19",
-    "@vitejs/plugin-react": "^5.0.0"
+    "vite": "^5.4.19"
   },
   "description": "## Project info",
   "main": "eslint.config.js",
   "author": "",
-  "license": "ISC",
-  "engines": {
-    "node": ">=16.x"
-  }
+  "license": "ISC"
 }
