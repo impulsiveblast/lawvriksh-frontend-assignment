@@ -1,13 +1,13 @@
-# LawVriksh - Fixed Deployable Version
+# LawVriksh - Final Deployable Version
 
-This version fixes the Rollup import issue by adding `base: './'` in vite.config.js.
-Tested and verified to build correctly on Vercel.
+This is the final version that fixes Rollup/Vite unresolved import issues on Vercel.
 
-## Run locally
-npm install
-npm run build
-npm run preview
+## Local setup
+1. npm install
+2. npm run dev
+3. npm run build
 
-## Deploy settings
+## Deploy settings for Vercel
 - Build command: npm run build
 - Output directory: dist
+- Root: project root

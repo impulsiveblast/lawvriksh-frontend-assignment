@@ -4,14 +4,12 @@ import { resolve } from 'path'
 
 export default defineConfig({
   plugins: [react()],
-  root: '.',
-  base: './',
-  build: {
-    outDir: 'dist'
-  },
   resolve: {
     alias: {
-      '@': resolve(__dirname, 'src'),
-    },
+      '@': resolve(__dirname, 'src')
+    }
   },
+  build: {
+    outDir: 'dist'
+  }
 })
