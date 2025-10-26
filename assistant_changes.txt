@@ -1,0 +1,9 @@
+Files created/modified by assistant:
+
+- package.json (scripts, engines, deps/devDeps possibly updated)
+- vite.config.ts (created if absent)
+- vercel.json (created)
+- postcss.config.js (created)
+- tailwind.config.js (created)
+- tsconfig.json (created/updated)
+- README.md (appended build hints)
